@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7fc;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-title {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Group */
+  .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    color: #555;
+    margin-right: 8px;
+  }
+  
+  .input-group input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  /* Button Styles */
+  .button-group,
+  .action-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #3c79c9;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #355f96;
+  }
+  .print-btn {
+    background-color: rgb(212, 37, 37);
+  }
+  
+  /* Table Styles */
+  .table-container {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .customer-table th,
+  .customer-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .customer-table th {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .customer-table td {
+    background-color: #f9f9f9;
+  }
+  
+  /* Print Section */
+  .print-section {
+    display: none;
+  }
+  
+  .print-section h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .print-section hr {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  
+  .print-section div {
+    margin-bottom: 20px;
+  }
+  
+  .print-section div strong {
+    color: #333;
+  }
+  
+  .print-section div {
+    float: left;
+    width: 48%;
+    padding-right: 2%;
+  }
+  
+  .print-section div:nth-child(odd) {
+    clear: both;
+  }
+  
+  .print-section .clear {
+    clear: both;
+  }
+  
